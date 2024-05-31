@@ -113,9 +113,8 @@ function massUnwrap (nodules, names) {
   })
 }
 
-shimmer.wrap = wrap
-shimmer.massWrap = massWrap
-shimmer.unwrap = unwrap
-shimmer.massUnwrap = massUnwrap
-
 module.exports = shimmer
+module.exports.wrap = wrap
+module.exports.massWrap = massWrap
+module.exports.unwrap = unwrap
+module.exports.massUnwrap = massUnwrap
